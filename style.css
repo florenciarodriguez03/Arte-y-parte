@@ -1,0 +1,2042 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Reglas de etiqueta */
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+}
+span{
+	color:rgba(254,62,65,1.00);
+}
+h2{
+	font-family: 'Yeseva One', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	margin: 10px 0px 10px 20px;
+}
+h3{
+	font-family: 'Yeseva One', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	margin: 10px 0px 10px 20px;
+	color: white;
+}
+p{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	text-align: justify;
+	font-weight: 400;
+	margin: 10px 0px 40px 20px;
+	width: 320px;
+}
+footer{
+	width: 100%;
+	padding: 15px 0px;
+}
+
+/* Reglas de clase */
+.cont-menu{
+    padding: 1.5rem;	
+}
+.container{
+    max-width: 1440px;
+    margin: auto;	
+}
+.navegador-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    max-width: 80%;
+    flex-basis: 100px;
+}
+.menu-btn{
+    width: 1.5rem;
+	background: rgba(255,255,255,0.01);
+}
+.menu{
+	display: none;
+}
+.mostrarmenu{
+ 	display: block;
+}
+.menu li{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	list-style: none;
+}
+.boton-in{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	background: rgba(255,255,255,0.01);
+	margin: 1.5rem 1rem 1.5rem 0rem;
+}
+.boton-re{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12px;
+	color: rgba(254,62,65,1.00);
+	background: rgba(255,255,255,0.01);
+	margin-right: 1rem;
+}
+
+/* Comienza home */
+.botones{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 800;
+	background: rgba(254,62,65,1.00);
+	padding: 10px 20px;
+	border-radius: 10px;
+    margin-bottom: 15px;
+	margin-left: 20px;
+	border: 0;
+	color: white;	
+}
+.botones2{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 800;
+	background: rgba(254,62,65,1.00);
+	padding: 10px 20px;
+	border-radius: 10px;
+    margin-bottom: 15px;
+	margin-left: 20px;
+	border: 0;
+	color: white;
+}
+.boton-franja{
+	display: flex;
+	width: 768px;
+	height: 80px;
+	background: rgba(13,177,129,1.00);
+}
+.franja-texto{
+	font-family: 'Yeseva One', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	background: rgba(255,255,255,0.01);
+	margin: 10px;
+}
+.primerseccion img{
+	width: 400px;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.iconosredes{
+	position: absolute;
+	margin-left:20px;
+	margin-bottom: 40px;
+	top: 820px;
+}
+.sumartetexto{
+	position: absolute;
+	margin-top: 550px;
+}
+.contenedor-redes{
+	margin-left:120px;
+	margin-top: 2900px;
+}
+.fotohome03 img{
+	position: absolute;
+	margin-top: 150px;
+	left: 20px;
+	margin-bottom: 40px;
+	width: 300px;
+}
+.expresarte{
+	position: absolute;
+	margin-top: 800px;
+}
+.tarjeta-texto1{
+	position: absolute;
+	color: white;
+	margin-left: 40px;
+	top: 600px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+
+}
+.tarjeta-texto2{
+	position: absolute;
+	color: white;
+	margin-left: 950px;
+	top: 600px;
+}
+.tarjeta-titulo-pro{
+	position: absolute;
+	color: white;
+	margin-top: 600px;
+	margin-left: 15px;
+}
+.tarjeta-titulo-infan{
+	position: absolute;
+	color: white;
+	margin-left: 15px;
+	margin-top: 600px;
+}
+.tarjetas img{
+	margin-left: 20px;
+	width: 400px;
+	
+}
+.cardverde1{
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	align-items: center;
+    justify-content: space-around;
+	background: rgba(13,177,129,1.00);
+	padding: 35px 0px;
+	margin-top: 600px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+.cardverde2{
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	align-items: center;
+    justify-content: space-around;
+	background: rgba(13,177,129,1.00);
+	padding: 35px 0px;
+	margin-top: 600px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+}
+.cardhome img{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 600px;
+}
+.cardhome2 img{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 600px;
+}
+
+/* Comienza voluntariado */
+.card-audiovisual{
+	margin-left: 40px;
+	top: 2000px;
+}
+.cardverdevoluntariado1{
+	width: 359px;
+	height: 200px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	background: #0CB381;
+}
+.tarjeta-titulo{
+	position: absolute;
+	margin-left: 55px;
+	top: 1530px;
+	color: white;
+}
+.tarjeta-textoconvo{
+	position: absolute;
+	font-size: 14px;
+	left: 15px;
+	top:1570px;
+	color: white;
+}
+.estrella1{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 1498px;
+	left: 375px;
+}
+.card-desarrollo{
+	margin-left: 40px;
+	top: 1150px;
+}
+.cardverdevoluntariado2{
+	width: 359px;
+	height: 220px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	top: 400px;
+	background: #0CB381;
+}
+.tarjeta-titulo2{
+	position: absolute;
+	margin-left: 55px;
+	color: white;
+	top:2250px;
+}
+.tarjeta-textoconvo2{
+	position: absolute;
+	font-size: 14px;
+	left: 15px;
+	top: 2290px;
+	color: white;
+}
+.estrella2{
+	position: absolute;
+	top: 2217px;
+	width: 50px;
+	height: 50px;
+	left: 375px;
+}
+
+/* Comienza Tienda */
+.secciontienda img{
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.secciontienda h2{
+	margin-left: 40px;
+}
+.segundaseccion img{
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+.segundaseccion h2{
+	margin-left: 40px;
+}
+.tiendacarrousel h2{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.carrousel img{
+	width: 30%;
+	display: flex;
+	overflow-x: scroll;
+	margin: 5px;
+}
+.boton-mas{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12px;
+	color: rgba(254,62,65,1.00);
+	background: rgba(255,255,255,0.01);
+	margin-right: 1rem;
+	}
+.botones-comprar{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	background: rgba(254,62,65,1.00);
+	padding: 10px 20px;
+	border-radius: 10px;
+    margin-bottom: 15px;
+	margin-left: 20px;
+	border: 0;
+	color: white;
+}
+.botonmas{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12px;
+	color: rgba(254,62,65,1.00);
+	background: rgba(255,255,255,0.01);
+	margin-right: 1rem;
+}
+.botonescomprar{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	background: rgba(254,62,65,1.00);
+	padding: 10px 20px;
+	border-radius: 10px;
+    margin-bottom: 15px;
+	margin-left: 20px;
+	border: 0;
+	color: white;
+}
+
+/* Comienza tiendainformacion */
+.carrousel-items img{
+	width: 30%;
+	display: flex;
+	overflow-x: scroll;
+	margin: 5px;
+}
+.secciongorra img{
+	display: flex;
+	width: 420px;
+	height: 300px;
+	margin-left: 25px;
+}
+.secciongorra h2{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 45px;
+
+}
+.secciongorra h4{
+	display: flex;
+	margin-left: 20px;
+	font-family: "Roboto Condensed";
+}
+.secciongorra p{
+	display: flex;
+	font-size: 16px;
+	width: 350px;
+}
+.secciongorra h5{
+	display: flex;
+	font-family: "Roboto Condensed";
+	margin-left: 20px;
+	margin-bottom: 40px;
+	font-size: 14px;
+}
+.boton-carrito{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 15px;
+	color: rgba(254,62,65,1.00);
+	background: rgba(255,255,255,0.01);
+	margin-right: 1rem;
+}
+.botones-comprartienda{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	background: rgba(254,62,65,1.00);
+	padding: 10px 20px;
+	border-radius: 10px;
+    margin-bottom: 35px;
+	margin-left: 20px;
+	border: 0;
+	color: white;
+}
+.buzo img{
+	width: 50%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.buzo h4{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 17px;
+}
+.buzo h5{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+}
+.remera img{
+	width: 50%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.remera h4{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 17px;
+}
+.remera h5{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+}
+.barbijo img{
+	width: 50%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.barbijo h4{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 17px;
+}
+.barbijo h5{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+}
+.pin img{
+	width: 50%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.pin h4{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 17px;
+}
+.pin h5{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+}
+.taza img{
+	width: 50%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.taza h4{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 17px;
+}
+.taza h5{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+}
+.airpods img{
+	width: 50%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.airpods h4{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 17px;
+}
+.airpods h5{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+}
+.agenda img{
+	width: 50%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.agenda h4{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 17px;
+}
+.agenda h5{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+}
+.funda img{
+	width: 50%;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.funda h4{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 17px;
+}
+.funda h5{
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+}
+
+/* Comienza Nosotros */
+.primerseccionnosotros{
+	position: absolute;
+	margin-top: 150px;
+	left: 20px;
+	margin-bottom: 40px;
+	width: 300px;
+}
+.primerseccionnosotros h2{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.equipo{
+	position: absolute;
+	margin-top: 950px;
+	left: 20px;
+	margin-bottom: 40px;
+	width: 300px;
+}
+.equipo h2{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.presidente{
+	width:130%;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.pres{
+	width: 424px;
+	height: 88px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	font-family: "Roboto Condensed";
+}
+.vicepresidente{
+	margin-bottom: 30px;
+}
+.vice{
+	width: 424px;
+	height: 88px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	font-family: "Roboto Condensed";
+}
+.chicosgrilla{
+	position: absolute;
+	margin-top: 2350px;
+	left: 20px;
+	margin-bottom: 20px;
+	width: 300px;
+}
+.chicouno{
+	margin-bottom: 20px;
+}
+.chicodos{
+	margin-bottom: 20px;
+}
+.chicotres{
+	margin-bottom: 20px;
+}
+.chicocuatro{
+	margin-bottom: 20px;
+}
+.chicocinco{
+	margin-bottom: 20px;
+}
+.chicoseis{
+	margin-bottom: 20px;
+}
+.franjaestrellas-nosotros{
+	position: absolute;
+	width: 1588px;
+	height: 125px;
+	top: 5300px;
+}
+.contenedor-footer-nosotros{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin-top: 1100%
+}
+
+/* Comienza contacto */
+.contenedor-contacto img{
+	margin-left: 20px;
+}
+.pcontacto{
+	margin-left: 20px;
+	border: 1px solid #000000;
+}
+.franjaestrellas-contacto{
+	margin-top: 200px;
+}
+.botonredondo{
+	margin-top: 30px;
+	margin-left: 20px;
+	background: #EF5C62;
+	border-radius: 15px;
+	width: 100px;
+	height: 50px;
+	color: white;
+}
+.penviar{
+	font-size: 20px;
+}
+.contenedor-derechos-contacto{
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: "Roboto Condensed";
+}
+.contenedor-footer-contacto{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin-top: 20%;
+}
+.contenedor-redes-contacto{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+/* Comienza footer */
+.contenedor-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin-top: 20%;
+}
+.contenedor-footer-voluntariado{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin-top: 20%
+}
+.contenedor-footer-tiendainfo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin-top: 5%
+}
+.box-footer{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+.box-footer h4{
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+.boletin-semanal p {
+	margin: 5px 0px 12px 0px;
+	font-size: 12px;
+}
+.formulario-footer{
+	display: flex;
+}	
+.boton-formulario {
+	font-family: 'Yeseva One', cursive;
+	font-style: normal;
+	font-weight: 800;
+	padding: 6px 20px;
+	background: rgba(254,62,65,1.00);
+	border: solid 1px black;
+	color: white;
+}
+.box-footer a{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 5px;
+}
+.contenedor-redes{
+	max-width: 1200px;
+	margin: 0px 10px 15px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.contenedor-redes img{
+	width: 10%;	
+	margin: 0px 3px;
+}
+.contenedor-redes-voluntariado{
+	ax-width: 1200px;
+	margin: 0px 10px 15px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.contenedor-redes-voluntariado img{
+	width: 10%;	
+	margin: 0px 3px;
+}
+.franjaestrellas-voluntariado{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin-top: 15%;
+}
+.franjaestrellas{
+	position: absolute;
+	width: 1588px;
+	height: 125px;
+	left: -38px;
+	top: 2946px;
+
+}
+.franjaestrellas-tiendainfo{
+	position: absolute;
+	width: 1588px;
+	height: 125px;
+	margin-top: 1100px;
+
+}
+.contenedor-derechos{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0px 20px;
+}
+.politica a{
+	font-family: 'Yeseva One', cursive;
+	font-style: normal;
+	font-weight: 800;
+	margin-bottom: 10px;
+	font-size: 11px;
+}
+
+
+@media (min-width: 768px){
+	
+nav{
+	align-items: inherit;
+}		
+li{
+    list-style: none;
+	display: flex;
+}
+h2{
+	font-size: 65px;
+	text-align: left;
+}	
+h3{
+	font-size: 25px;
+}		
+h5{
+	font-size: 12px;
+}		
+h6{
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+	font-size: 10px;
+	margin: -40px 40px 18px;
+}	
+p{
+		font-size: 20px;
+		width: 440px;
+	}
+	
+.cont-menu{
+    padding: 1.5rem;
+}	
+.logo{
+    max-width: 100%;
+	flex-basis: 100px;
+	margin-top: 25px;
+}	
+.menu{
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.menu li{
+	font-size: 15px;
+}		
+.menu li:nth-child(2){
+    order: 1;
+}
+.menu-btn{
+	display: none;
+}
+.boton-in{
+	font-size: 14px;
+}
+.boton-re{
+	font-size: 15px;
+}		
+.btn-in-re{
+	padding:  1.5rem 0rem;
+}
+.botones{
+		margin-top: 70px;
+	}
+	
+	/* Comienza home */
+.primerseccion{
+	position: absolute;
+	top: 270px;
+	left: 200px;
+	}
+.primerseccion img{
+	position: absolute;
+	width: 536px;
+	height: 538px;
+	left: 1100px;
+	}
+.iconosredes{
+	top: 570px;
+	margin-left: 240px;
+	}
+.sumartetexto{
+	position: absolute;
+	top: 1000px;
+	left: 200px;
+	}
+.expresarte{
+	position: absolute;
+	width: 535px;
+	height: 49px;
+	left: 200px;
+	top: 1400px;
+	}
+.boton-franja{
+	position: absolute;
+	width: 1880px;
+	height: 125px;
+	left: 0px;
+	top: 982px;
+	}
+.franja-texto{
+	font-style: normal;
+	font-weight: 100;
+	font-size: 32px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+    margin-right: 150px;
+	margin-left: 150px;
+	}
+.tarjeta-texto1{
+	position: absolute;
+	width: 422px;
+	height: 109px;
+	left: 196px;
+	margin-top: 440px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: justify;
+	}
+.tarjeta-texto2{
+	position: absolute;
+	width: 422px;
+	height: 109px;
+	margin-top: 440px;
+	margin-left: 930px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: justify;
+	}
+.cardverde1{
+	position: absolute;
+	width: 646px;
+	height: 230px;
+	left: 100px;
+	top: 315px;
+	}
+.cardverde2{
+	position: absolute;
+	width: 646px;
+	height: 230px;
+	left: 766px;
+	top: 315px;
+
+
+	}
+.tarjeta-titulo-pro{
+	position: absolute;
+	left: 11.5%;
+	right: 50.79%;
+	top: 120%;
+	bottom: 23%;
+	}
+.tarjeta-titulo-infan{
+	position: absolute;
+	left: 47.7%;
+	right: 6.75%;
+	top: 120%;
+	bottom: 23%;
+	}
+.cardhome img{
+	position: absolute;
+	width: 646px;
+	height: 315px;
+	left: 100px;
+	top: 5px;
+	}
+.cardhome2 img{
+	position: absolute;
+	width: 646px;
+	height: 315px;
+	left: 766px;
+	top: 5px;
+	}
+.fotohome03 img{
+	position: absolute;
+	width: 474px;
+	height: 562px;
+	left: 1200px;
+	top: 1152px;
+	}
+	
+	/* Comienza voluntariado */
+.primerseccionvolun h2{
+	position: absolute;
+	left: 120px;
+	top: 230px;
+	}	
+.primerseccionvolun p{
+	position: absolute;
+	left: 100px;
+	top: 320px;
+	}
+.primerseccionvolun img{
+	position: absolute;
+	width: 700px;
+	height: 425px;
+	left: 950px;
+	top: 264px;
+	}
+.convocatorias{
+	position: absolute;
+	top: 700px;
+	left: 100px;
+	}
+.tarjeta-titulo{
+	position: absolute;
+	left: 530px;
+	top: 1370px;
+	color: white;
+	}
+.tarjeta-textoconvo{
+	position: absolute;
+	font-size: 20px;
+	width: 600px;
+	height: 297px;
+	left: 550px;
+	top: 1430px;
+	color: white;
+	}
+.card-desarrollo{
+	position: absolute;
+	width: 360px;
+	height: 475px;
+	left: 100px;
+	top: 1150px;
+
+	}
+.cardverdevoluntariado1{
+	position: absolute;
+	width: 898px;
+	height: 363px;
+	left: 500px;
+	top: 1262px;
+	background: #0CB381;
+	}
+.estrella1{
+	position: absolute;
+	top: 1213px;
+	left: 1389px;
+	width: 100px;
+	height: 100px;
+	}
+.tarjeta-titulo2{
+	position: absolute;
+	width: 474px;
+	height: 78px;
+	left: 570px;
+	top: 1880px;
+	color: white;
+	}
+.tarjeta-textoconvo2{
+	position: absolute;
+	font-size: 20px;
+	width: 600px;
+	height: 273px;
+	left: 550px;
+	top: 1930px;
+	color: white;
+	}
+.card-audiovisual{
+	position: absolute;
+	width: 360px;
+	height: 475px;
+	left: 105px;
+	top: 1700px;
+	}
+.cardverdevoluntariado2{
+	position: absolute;
+	width: 898px;
+	height: 363px;
+	left: 500px;
+	top: 1814px;
+	background: #0CB381;
+	}
+.estrella2{
+	position: absolute;
+	top: 1763px;
+	left: 1388px;
+	width: 100px;
+	height: 100px;
+	}
+.contenedor-tarjetas{
+	position: relative;
+	height: 315px;
+	top: 1750px;
+	left: 100px;
+	}
+
+
+	
+	/* Comienza tienda */
+.secciontienda img{
+	position: absolute;
+	width: 730px;
+	height: 730px;
+	left: 725px;
+	top: 221px;	
+	}
+.secciontienda h2{
+	position: absolute;
+	width: 535px;
+	height: 49px;
+	left: 100px;
+	top: 676px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 65px;
+	line-height: 65px;
+	}
+.secciontienda p{
+	position: absolute;
+	width: 535px;
+	height: 57px;
+	left: 100px;
+	top: 755px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: justify;
+	}
+.botones-comprar{
+	position: absolute;
+	left: 100px;
+	top: 840px;
+	}
+.boton-mas{
+		position: absolute;
+		width: 201px;
+		height: 30px;
+		left: 322px;
+		top: 840px;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 20px;
+		line-height: 24px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		text-decoration-line: underline;
+	}
+.segundaseccion img{
+	position: absolute;
+	width: 689px;
+	height: 582px;
+	left: 80px;
+	top: 1285px;
+	}
+.segundaseccion h2{
+	position: absolute;
+	width: 535px;
+	height: 49px;
+	left: 878px;
+	top: 1661px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 65px;
+	line-height: 65px;
+	}
+.segundaseccion p{
+	position: absolute;
+	width: 535px;
+	height: 57px;
+	left: 878px;
+	top: 1750px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: justify;
+	}
+.botonescomprar{
+	position: absolute;
+	width: 202px;
+	height: 50px;
+	left: 878px;
+	top: 1840px;
+	}
+.botonmas{
+	position: absolute;
+	width: 201px;
+	height: 30px;
+	left: 1200px;
+	top: 1840px;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration-line: underline;
+	}
+.tiendacarrousel h2{
+	position: absolute;
+	width: 538px;
+	height: 49px;
+	left: 102px;
+	top: 2067px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 65px;
+	line-height: 65px;
+	}
+.tiendacarrousel p{
+	position: absolute;
+	width: 534px;
+	height: 59px;
+	left: 102px;
+	top: 2170px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: justify;
+	}
+.carrousel{
+	position: absolute;
+	width: 1600px;
+	height: 561px;
+	left: 100px;
+	top: 2290px;
+	overflow-x: scroll;
+
+	
+	}
+	
+	/* Comienza tiendainformacion */
+.carrousel-items img{
+	width: 90%;
+	display: flex;
+	overflow-x: scroll;
+	margin: 5px;
+	}
+.secciongorra img{
+	position: absolute;
+	width: 645px;
+	height: 450px;
+	left: 767px;
+	top: 225px;
+	}
+.secciongorra h2{
+	position: absolute;
+	width: 535px;
+	height: 49px;
+	left: 100px;
+	top: 225px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 65px;
+	line-height: 65px;
+
+	}
+.secciongorra h4{
+	position: absolute;
+	width: 536px;
+	height: 25px;
+	left: 100px;
+	top: 350px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: justify;
+	}
+.secciongorra p{
+	position: absolute;
+	width: 536px;
+	height: 95px;
+	left: 100px;
+	top: 374px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: justify;
+	}
+.secciongorra h5{
+	margin-top: 344px;
+	margin-left: 120px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	}
+.boton-carrito{
+		
+position: absolute;
+width: 197px;
+height: 50px;
+left: 328px;
+top: 641px;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration-line: underline;
+	}
+.botones-comprartienda{
+	position: absolute;
+	width: 202px;
+	height: 51px;
+	left: 101px;
+	top: 641px;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+	}
+.productos h2{
+	position: absolute;
+	width: 698px;
+	height: 49px;
+	left: 100px;
+	top: 1106px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 65px;
+	line-height: 65px;
+	}
+.productos p{
+	position: absolute;
+	width: 534px;
+	height: 59px;
+	left: 100px;
+	top: 1170px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: justify;
+	}
+.buzo img{
+	position: absolute;
+	width: 313px;
+	height: 398px;
+	left: 100px;
+	top: 1270px;
+
+	}
+.buzo h4{
+	position: absolute;
+	width: 313px;
+	height: 31px;
+	left: 99px;
+	top: 1694px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.buzo h5{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 100px;
+	top: 1740px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.buzo button{
+	left: 100px;
+	top: 1781px;
+	}
+.remera img{
+	position: absolute;
+	width: 313px;
+	height: 398px;
+	left: 433px;
+	top: 1270px;
+	}
+.remera h4{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 432px;
+	top: 1694px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.remera h5{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 433px;
+	top: 1740px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.remera button{
+		top: 1781px;
+		left: 433px;
+	}
+.barbijo img{
+	position: absolute;
+	width: 313px;
+	height: 398px;
+	left: 766px;
+	top: 1270px;
+	}
+.barbijo h4{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 766px;
+	top: 1694px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+
+	}
+.barbijo h5{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 766px;
+	top: 1740px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.barbijo button{
+		top: 1781px;
+		left: 766px;
+	}
+.pin img{
+	position: absolute;
+	width: 313px;
+	height: 398px;
+	left: 1099px;
+	top: 1270px;
+	}
+.pin h4{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 1098px;
+	top: 1694px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.pin h5{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 1099px;
+	top: 1740px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.pin button{
+		top: 1781px;
+		left: 1099px;
+	}
+.taza img{
+	position: absolute;
+	width: 313px;
+	height: 398px;
+	left: 1432px;
+	top: 1270px;
+	}
+.taza h4{
+		position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 1432px;
+	top: 1694px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.taza h5{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 1432px;
+	top: 1740px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.taza button{
+		top: 1781px;
+		left: 1432px;
+	}
+.airpods img{
+	position: absolute;
+	width: 313px;
+	height: 398px;
+	left: 1765px;
+	top: 1270px;
+	}
+.airpods h4{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 1765px;
+	top: 1694px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.airpods h5{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 1765px;
+	top: 1740px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.airpods button{
+		top: 1781px;
+		left: 1765px;
+	}
+.agenda img{
+	position: absolute;
+	width: 313px;
+	height: 398px;
+	left: 2098px;
+	top: 1270px;
+	}
+.agenda h4{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 2098px;
+	top: 1694px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.agenda h5{
+	position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 2098px;
+	top: 1740px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.agenda button{
+		top: 1781px;
+		left: 2098px;
+	}
+.funda img{
+	position: absolute;
+	width: 313px;
+	height: 398px;
+	left: 2431px;
+	top: 1270px;
+	}
+.funda h4{
+		position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 2431px;
+	top: 1694px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.funda h5{
+		position: absolute;
+	width: 312px;
+	height: 31px;
+	left: 2431px;
+	top: 1740px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	display: flex;
+	align-items: flex-end;
+	}
+.funda button{
+		top: 1781px;
+		left: 2431px;
+	}
+	
+	/* Comienza Nosotros */
+.primerseccionnosotros img{
+	position: absolute;
+	width: 645px;
+	height: 484px;
+	left: 1000px;
+	top: 50px;
+	}
+.primerseccionnosotros h2{
+	position: absolute;
+	width: 538px;
+	height: 49px;
+	left: 100px;
+	top:30px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 65px;
+	line-height: 65px;
+	}
+.primerseccionnosotros p{
+	position: absolute;
+	width: 520px;
+	height: 343px;
+	left: 100px;
+	top: 150px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: justify;
+	}
+.equipo h2{
+	position: absolute;
+	width: 1313px;
+	height: 49px;
+	left: 100px;
+	top: 80px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 65px;
+	line-height: 65px;
+	text-align: center;
+	}
+.presidente{
+	position: absolute;
+	width: 474px;
+	height: 562px;
+	left: 272px;
+	top: 290px;
+	}
+.pres{
+	position: absolute;
+	top: 900px;
+	width: 424px;
+	height: 88px;
+	left: 322px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;	
+	}
+.vice{
+	top: 900px;
+	position: absolute;
+	width: 424px;
+	height: 25px;
+	left: 766px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	}
+.vicepresidente{
+		position: absolute;
+	width: 474px;
+	height: 562px;
+	left: 766px;
+	top: 310px;
+	}
+.chicouno{
+	position: absolute;
+	width: 423px;
+	height: 423px;
+	left: 104px;
+	top: 0px;
+	}
+.chicodos{
+	position: absolute;
+	width: 423px;
+	height: 423px;
+	left: 547px;
+	top: 0px;
+	}
+.chicotres{
+	position: absolute;
+	width: 423px;
+	height: 423px;
+	left: 990px;
+	top: 0px;
+	}
+.chicocuatro{
+	position: absolute;
+	width: 423px;
+	height: 423px;
+	left: 104px;
+	top: 443px;
+	}
+.chicocinco{
+	position: absolute;
+	width: 423px;
+	height: 423px;
+	left: 547px;
+	top: 443px;
+	}
+.chicoseis{
+	position: absolute;
+	width: 423px;
+	height: 423px;
+	left: 990px;
+	top: 443px;
+	}
+.franjaestrellas-nosotros{
+	position: absolute;
+	width: 1588px;
+	height: 125px;
+	top: 3500px;
+	}
+.contenedor-footer-nosotros{
+	position: absolute;
+	width: 1312px;
+	height: 299px;
+	left: 100px;
+	margin-top: 3500px;
+	}
+.contenedor-redes-nosotros{
+	position: absolute;
+	left: 64%;
+	margin-top: 3700px;
+	}
+.contenedor-derechos-nosotros{
+	position: absolute;
+	left: 7%;
+	right: 7.32%;
+	top: 3900px;
+	bottom: 0%;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	font-family: "Roboto Condensed";
+	}
+	
+    /* Comienza contacto */
+.contenedor-contacto img{
+	position: absolute;
+	width: 424px;
+	height: 562px;
+	left: 988px;
+	top: 249px;
+	}
+.contenedor-contacto h2{
+	position: absolute;
+	width: 538px;
+	height: 49px;
+	left: 100px;
+	top: 225px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 65px;
+	line-height: 65px;
+	}
+.contenedor-contacto p{
+	position: absolute;
+	width: 538px;
+	height: 116px;
+	left: 100px;
+	top: 294px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: justify;
+	}
+.franjaestrellas-contacto{
+	position: absolute;
+	width: 1588px;
+	height: 125px;
+	top: 900px;
+
+	}
+.contenedor-footer-contacto{
+		position: absolute;
+		top: 950px;
+		margin-left: 100px;
+		width: 1640px;
+	}
+.contenedor-redes-contacto{
+	position: absolute;
+	left: 70%;
+	right: 7.32%;
+	top: 1400px;
+	bottom: 0%;
+	}
+.contenedor-derechos-contacto{
+	position: absolute;
+	left: 8.46%;
+	right: 7.32%;
+	top: 1500px;
+	bottom: 0%;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	font-family: "Roboto Condensed";
+	}
+.pcontacto{
+	position:absolute;
+	margin-left: 20px;
+}
+#nombre{
+		position:absolute;
+		margin-top:200px;
+		border: 1px solid #000000;
+		width:312px;
+		height:50px;
+	}
+#correo{
+		position:absolute;
+		margin-top:200px;
+		margin-left:320px;
+		border: 1px solid #000000;
+		width:312px;
+		height:50px;
+	}
+#asunto{
+		position:absolute;
+		margin-top:260px;
+		border: 1px solid #000000;
+		width:632px;
+		height:50px;
+	}
+#mensaje{
+		position:absolute;
+		margin-top:320px;
+		border: 1px solid #000000;
+		width:632px;
+		height:270px;
+	}
+.botonredondo{
+	postion:absolute;
+	margin-top: 800px;
+	margin-left: 120px;
+	background: #EF5C62;
+	border-radius: 15px;
+	width: 100px;
+	height: 50px;
+	color: white;
+}
+.penviar{
+	font-size: 20px;
+	margin-top: 678px;
+	margin-left:35px;
+}
+	
+
+
+	/* Comienza footer */
+.franjaestrellas-voluntariado{
+	position: absolute;
+	width: 1880px;
+	height: 125px;
+	top: 2100px;
+
+	}
+.franjaestrellas-tiendainfo{
+	position: absolute;
+	width: 1588px;
+	height: 125px;
+	top: 900px;
+
+}
+.contenedor-footer{
+		position: absolute;
+		margin-top: 2960px;
+		margin-left: 100px;
+		width: 1640px;
+	}
+.contenedor-footer-voluntariado{
+		position: absolute;
+		margin-top: 2350px;
+		margin-left: 100px;
+		width: 1640px;
+	}
+.contenedor-footer-tiendainfo{	
+	position: absolute;
+	width: 1640px;
+	left: 100px;
+	top: 2212px;
+	}
+.box-footer h4{
+	margin-bottom: 5px;
+	font-size: 16px;
+}	
+.boletin-semanal p {
+	margin: 5px 0px 15px 0px;
+	font-size: 14px;
+}		
+.box-footer a{
+	font-family: "Roboto Condensed";
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+	font-size: 14px;
+	margin-bottom: 5px;
+}	
+.contenedor-redes{
+	margin-top: 3200px;
+	margin-left: 100px;
+	justify-content: flex-start;
+}		
+.contenedor-redes img{
+	width: 3%;
+}	
+.contenedor-redes-voluntariado{
+	margin-top: 2550px;
+	margin-left: 100px;
+	justify-content: flex-start;
+	}
+.contenedor-redes-voluntariado img{
+		width: 3%;
+	}	
+.contenedor-redes-tiendainfo{
+		margin-top: 1530px;
+	margin-left: 100px;
+	justify-content: flex-start;
+	}
+.contenedor-redes-tiendainfo img{
+		width: 3%;
+	}
+.contenedor-derechos{
+		position: absolute;
+		margin-top: 40px;
+		margin-left: 100px;
+	}
+.contenedor-derechos-tiendainfo{
+	position: absolute;
+	left: 6%;
+	right: 7.32%;
+	top: 285%;
+	bottom: 0%;
+	}
+.politica a{
+	font-size: 12px;
+}	
+}
